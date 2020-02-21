@@ -1,0 +1,95 @@
+/* pages/main/main.wxss */
+.contain{
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(top, #f2f3f7, #e4e8ec);
+  background: -moz-linear-gradient(top, #f2f3f7, #e4e8ec);
+  background: linear-gradient(top, #f2f3f7, #e4e8ec);
+  overflow: hidden;
+  display: block;
+}
+.select{
+  text-align: center;
+  margin-top:5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight:700;
+  font-size: 18px;
+  color: darkred;
+
+}
+.function{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+}
+.facedetect_image{
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.btn_facedetect{
+
+  border-radius: 10px;
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #8c96a0;
+  text-shadow: 1px 1px 1px #fff;
+  border: 1px solid #dce1e6;
+  box-shadow: 0 1px 2px #fff inset, 0 -1px 0 #a8abae inset;
+  background: -webkit-linear-gradient(top, #f2f3f7, #e4e8ec);
+  background: -moz-linear-gradient(top, #f2f3f7, #e4e8ec);
+  background: linear-gradient(top, #f2f3f7, #e4e8ec);
+}
+ .btn_facedetect:hover {
+    background: -webkit-linear-gradient(top, #fefefe, #ebeced);
+    background: -moz-linear-gradient(top, #f2f3f7, #ebeced);
+    background: linear-gradient(top, #f2f3f7, #ebeced);
+}
+
+.btn_facedetect:active {
+    box-shadow: 0 1px 3px #a8abae inset, 0 3px 0 #fff;
+    background: -webkit-linear-gradient(top, #e4e8ec, #e4e8ec);
+    background: -moz-linear-gradient(top, #e4e8ec, #e4e8ec);
+    background: linear-gradient(top, #e4e8ec, #e4e8ec);
+}
+
+.function_facedetect{
+  margin-top: 10%;
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  /* background-color: yellow; */
+} 
+.contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90%;
+  margin-bottom: 10%;
+  bottom: 20px;
+  font-weight:700;
+  font-size: 14px;
+  color: darkred;
+  
+}
+

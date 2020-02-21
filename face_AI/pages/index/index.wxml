@@ -1,0 +1,36 @@
+<!--index.wxml-->
+
+<view class="container" style='width:100%; min-height:100%;'>
+ <view class='title'>
+  <text>face AI</text>
+ </view>
+
+<view class="content">
+  <view class="real_num">
+    <view class='line1'>
+      <text>签到人数</text>
+    </view>
+    <view class='line2'>
+      <text>***人</text>
+    </view>
+  </view>
+  <view class="totle_num">
+    <view  class='line3'>
+      <text>应到人数</text>
+    </view>
+    <view  class='line4'>
+      <text>***人</text>
+    </view>
+  </view>
+</view>
+<view class="btn_start">
+ <button bindtap='go_main' class='btn1'>
+    进入实验平台
+ </button>
+</view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+
+  </view>  
+</view>
+ 
